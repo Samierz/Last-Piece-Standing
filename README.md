@@ -1,4 +1,4 @@
-# ♟️ Last-piece-standing
+# ♟️ Last Piece Standing
 Last Piece Standing, HTML5, Canvas ve JavaScript kullanılarak geliştirilen , klasik satranç taşlarının yeteneklerinden ilham alan, seviye tabanlı ve stratejik bir oyunudur. Oyuncu, şah karakterini kullanarak gelen düşman taşlarını alt etmeye çalışır. Amaç: En sona kalan tek taş olmak!
 
 ![Oyun Ekranı](assets/ss8.png)
