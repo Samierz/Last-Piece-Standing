@@ -6,6 +6,8 @@ Last Piece Standing, HTML5, Canvas ve JavaScript kullanılarak geliştirilen , k
 
 # 🎮 Nasıl Oynanır
  [Oyunu oynamak için tıklayabilirsiniz](https://samierz.github.io/Last-piece-standing/)  
+
+ [Oyunun oynanış videosuna ulaşmak için tıklayabilirsiniz](https://youtu.be/o3tGT5dbmac)
  
  ![Oyun Ekranı](assets/ss9.png)  
  
