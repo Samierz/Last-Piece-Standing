@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+.start-container {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.7);
+  z-index: 10;
+}
+
+#startBtn {
+  font-size: 2rem;
+  padding: 24px 64px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #ffb347 0%, #ffcc33 100%);
+  color: #222;
+  font-weight: bold;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+#startBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+  background: linear-gradient(90deg, #ffe259 0%, #ffa751 100%);
+}
+
+canvas {
+  display: block;
+  margin: 20px auto;
+  border: 5px solid black;
+}
+
+#bilgiKutusu,
+#nasilKutusu {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 20;
+  align-items: center;
+  justify-content: center;
+}
+
+#nasilKutusu {
+  z-index: 30;
+}
+
+#bilgiKutusu > div,
+#nasilKutusu > div {
+  background: white;
+  color: #222;
+  padding: 32px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  margin: auto;
+  font-size: 1.2rem;
+  max-width: 440px;
+  text-align: center;
+}
+
+#nasilKutusu > div {
+  text-align: left;
+}
+
+#bilgiKutusu p {
+  margin-bottom: 24px;
+}
+
+#nasilKutusu ol {
+  margin-left: 18px;
+  margin-bottom: 24px;
+}
+
+#nasilKutusu .title {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+#bilgiTamamBtn,
+#nasilTamamBtn {
+  font-size: 1.1rem;
+  padding: 10px 32px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(90deg, #ffb347, #ffcc33);
+  font-weight: bold;
+  cursor: pointer;
+}
