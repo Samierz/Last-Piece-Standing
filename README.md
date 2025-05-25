@@ -14,7 +14,7 @@ Last Piece Standing, HTML5, Canvas ve JavaScript kullanılarak geliştirilen , k
  - Oyunda amaç kontrol ettiğiniz şah karakteri ile bütün taşları yutmak
  - Taşları İki şekilde yutabilirsiniz
      - Yutulacak taşın o anda olduğu kareye tıklayarak
-     - Yutulacak taşın gideceği kareye(okun gösterdiği) kareye tıklayarak
+     - Yutulacak taşın gideceği kareye(okun gösterdiği) tıklayarak
  - Bütün taşları yuttuğunuz zaman bi sonraki levele geçer
  - İlk ve son level hariç bütün levellerde sol üstte sadece 1 kez kullanabileceğiniz özellikler çıkar.
  - Bu özellikler satrancın diğer taşlarıdır
@@ -53,8 +53,8 @@ Düşman taşlarından biri sınır çizgisine ulaşırsa, seviye sıfırlanır.
 **Modüler Harita Sistemi:**
 Tahta yapısı ve taş yerleşimleri kolayca değiştirilebilecek yapıdadır. Geliştirici için genişletilebilir bir tasarım sunar.
 
-**Klavye ve Fare Desteği:**
-Tüm oyun fare ile oynanır. Oyuncu taşını tıklayıp hamlesini planlayabilir. Bazı özel durumlarda klavye yön tuşları da desteklenebilir.
+**Fare Desteği:**
+Tüm oyun fare ile oynanır. Oyuncu taşını tıklayıp hamlesini planlayabilir.
 
 
 # İlham Alınan Oyun
